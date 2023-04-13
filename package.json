@@ -8,7 +8,6 @@
     "socket.io": "^2.3.0"
   },
   "scripts": {
-    "dev": "nodemon server.js",
-    "postinstall": "cd ./client && npm i"
+    "start": "node server.js"
   }
 }
